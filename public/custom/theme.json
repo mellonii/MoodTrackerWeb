@@ -1,0 +1,21 @@
+{
+  "_подсказка": "Все поля необязательны. Можно удалить любой ключ — останется значение по умолчанию. Путь к файлам указывается относительно папки custom/. Подробности — в README.md рядом.",
+  "background": null,
+  "colors": {
+    "bg": "#F0D9E4",
+    "card": "#FDF6F9",
+    "text": "#4A3F4B",
+    "textMuted": "#806C79",
+    "accent": "#C1A0AC",
+    "accentStrong": "#4A3F4B",
+    "accentSoft": "#F6E4ED",
+    "border": "#E7D2DC"
+  },
+  "emotions": {
+    "Awful":   { "color": "#C25B6E", "image": "emotions/awful.png" },
+    "Bad":     { "color": "#C68A6B", "image": "emotions/bad.png" },
+    "Neutral": { "color": "#C4AD72", "image": "emotions/neutral.png" },
+    "Good":    { "color": "#9CB37E", "image": "emotions/good.png" },
+    "Great":   { "color": "#6FB392", "image": "emotions/great.png" }
+  }
+}

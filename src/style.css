@@ -1,0 +1,48 @@
+:root {
+  /* палитра: F0D9E4, C1A0AC, 4A3F4B, 806C79, 16131F */
+  --bg: #f0d9e4;
+  --card: #fdf6f9;
+  --text: #4a3f4b;
+  --text-muted: #806c79;
+  --accent: #c1a0ac;
+  --accent-strong: #4a3f4b;
+  --accent-soft: #f6e4ed;
+  --border: #e7d2dc;
+  --danger: #b34a5e;
+  --overlay: rgba(22, 19, 31, 0.45);
+  --radius: 18px;
+  --shadow: 0 6px 24px rgba(74, 63, 75, 0.1);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px;
+}
+
+h2.section-title {
+  font-size: 17px;
+  font-weight: 600;
+}
